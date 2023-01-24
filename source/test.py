@@ -13,7 +13,7 @@ endpoint_name = f"{stack_name}-{commit_id[:7]}"
 
 runtime = boto3.client("runtime.sagemaker")
 
-IMAGE_URL = "http://www.chemicalnews.co.kr/news/photo/202106/3636_10174_4958.jpg"
+IMAGE_URL = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fkr.lovepik.com%2Fimages%2F1962.html&psig=AOvVaw2mZNd_guJyD-qvx1NqRQFo&ust=1674628152270000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMj9tJLK3_wCFQAAAAAdAAAAABAE"
 test_file = "test.jpg"
 wget.download(
     IMAGE_URL,
